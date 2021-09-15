@@ -1,0 +1,51 @@
+body{
+    background-color: #BFD8B8;
+}
+table{
+    width: 100%; 
+    text-align: center;
+}
+h1{
+    text-align: center; 
+    font-family: Georgia, serif;
+}
+h2{
+    text-align: center;
+}
+.table-menu td:hover{
+    background-color: #1EAE98;
+}
+.ph{
+    text-align: center;
+}
+.table-skils{
+    text-align: right;
+    margin-left: 10px;
+}
+.table-skils1{
+    text-align: left;
+    margin-left: 10px;
+}
+.i-adobe{
+    text-align: left; 
+    font-size: 22px; 
+    font-family: 'PT Sans', sans-serif;
+}
+.table-img{
+    background-color: #FFCFDF;
+}
+.ul-circle{
+    list-style-type:circle; 
+    text-align: center;
+    background-color: #FFCFDF;
+}
+.table-bigcrepes{
+    background-color: #FEFDCA;
+}
+.Abilitis{
+    text-decoration: underline;
+    background-color: #FEFDCA;
+}
+.p-adobe{
+    background-color: #FEFDCA;
+}

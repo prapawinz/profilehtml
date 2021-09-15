@@ -1,0 +1,19 @@
+body{
+    background-color: #BFD8B8;
+}
+h1{
+    text-align: center; 
+    font-family: Georgia, serif;
+    background-color: #FFCFDF;
+    text-decoration: underline;
+}
+table{
+    width: 100%; 
+    text-align: center;
+}
+.table-menu td:hover{
+    background-color: #1EAE98;
+}
+.table-contact{
+    background-color: #FEFDCA;
+}

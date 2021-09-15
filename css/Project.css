@@ -1,0 +1,33 @@
+/* CSS filer --> index.html */
+/* (1) Tag Selector */
+body{
+    background-color: #BFD8B8;
+}
+h1{
+    text-align: center; 
+    font-family: Georgia, serif;
+    background-color: #FFCFDF;
+    text-decoration: underline;
+}
+table{
+    width: 100%; 
+    text-align: center;
+}
+.table-menu td:hover{
+    background-color: #1EAE98;
+}
+.p-project{
+    text-align: center;
+    background-color: #FFCFDF;
+}
+.p-2021{
+    text-align: center;
+}
+.pic1{
+    margin-right: auto;
+    margin-left: auto; 
+    text-align: center;
+}
+.div-Project{
+    background-color: #FEFDCA;      
+}

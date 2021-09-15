@@ -5,16 +5,31 @@
     <title>Prapawin Profile Site</title>
     <!-- External Resource link font: https://www.w3schools.com/whatis/tryit.asp?font=Bangers-->
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <!-- External CSS => 3rd Priority-->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Add Favicon Icon => https://www.favicon.cc/ -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Internal CSS => 2nd Priority -->
+    <!--<style>
+        /* CSS Comments */
+        /* CSS Syntax => selector { property: value; } */
+        /* (1) Tag Selector */
+    </style>-->
 </head>
-<body style="background-color: #ccffcc">
-    <h1 style="text-align: center; font-family: Georgia, serif;">Profile</h1>
-    <h2 style="text-align: center; font-family: Georgia, serif; font-weight: normal;">
-        Prapawin chanviboonsi</h2>
-    <h4 style="text-align: center; font-family: 'Bangers'; font-weight: normal;"><i>
-        "Belive the Impossible is Possible"</i></h4>
+<body>
+    <!-- Header -->
+    <!-- Internal CSS => 1nd Priority -->
+    <!-- The Content Division Element-->
+    <div class="top-container">
+        <h1>Profile</h1>
+        <h2>I'm <span class="name">Prapawin</span> chanviboonsi</h2>
+        <h4><i>"Belive the Impossible is Possible"</i></h4>
+    </div>
         <hr>
         <!-- Menu -->
-        <table style="width: 100%; text-align: center" cellspacing="10">
+    <div class="table-menu">
+        <table>
                 <td>
                     <h3><a href="index.html">Profile</a></h3>
                 </td>
@@ -32,26 +47,29 @@
                 </td>
             </tr>
         </table>
+    </div>  
         <hr>
+    <div class="table-content">
         <table>
             <tr>
-                <th style="width: 33.33%; vertical-align: top;"><h2>About Me</h2>
-                    <p style="font-weight: normal; text-align: justify;">Hello, my name is Prapawin chanviboonsi, 19 years old, now studying at Bangkok University. 
-                    I'm funny, but not always friendly. Likes to help others, does not like to study, likes to play alone. love to drive I really like the engine.
-                    and i like studying About computers a lot, such as graphics work, creating anything.</p>
+                <th><h2>About Me</h2>
+                    <p class="p-AboutMe">
+                    Hello, my name is Prapawin chanviboonsi, 19 years old, now studying at Bangkok University. 
+                    I'm funny, but not always friendly. Likes to help others, does not like to study, likes to play alone. 
+                    love to drive I really like the engine. and i like studying About computers a lot, such as graphics work, creating anything.</p>
                     <p>Email: <a href="mailto: prapawin.chan@bumail.net">
                     prapawin.chan@bumail.net</a></p>
                 </th>
-                <th style="width: 33.33%; vertical-align: top;">
+                <th>
                     <!-- Crop-circle Image: https://crop-circle.imageonline.co/-->
                     <p><img src="images/prapawin-modified.png" alt="prapawin" style="width: 60%;"></p>
                 </th>
-                <th style="width: 33.33%; vertical-align: top; text-align: left;">
+                <th id="th-Details">
                     <h2>Details</h2>
                     <p>Name:</p>
-                    <p style="font-weight: normal;">Prapawin chanviboonsi</p>
-                    <p>Location:</p>
-                    <p style="font-weight: normal;">Thailand</p>
+                    <p class="p-Name">Prapawin chanviboonsi</p>
+                <p>Location:</p>
+                    <p class="p-Name">Thailand</p>
                     <p>Social Media:</p>
                     <!-- Reference Social Media: https://www.w3schools.com/icons/icons_reference.asp-->
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -61,6 +79,7 @@
             </tr>
         </table>
         <hr>
-        <p style="text-align: center;">⭕2021 prapawin⭕</p>
+    </div>
+        <p class="p-Footer">⭕2021 prapawin⭕</p>
 </body>
 </html>

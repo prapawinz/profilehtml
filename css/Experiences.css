@@ -1,0 +1,65 @@
+/* CSS files --> experiences.html */
+body{
+    background-color: #BFD8B8;
+}
+table{
+    width: 100%; 
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+    background-color: #FEFDCA;
+}
+h2{
+    text-align: center; 
+    font-family: Georgia, serif; 
+    font-weight: normal;
+}
+h4{
+    text-align: center; 
+    font-family: 'Bangers'; 
+    font-weight: normal;
+    background-color: #FFCFDF;
+}
+h5{
+    text-align: center; 
+    font-family: 'Bangers'; 
+    font-weight: normal;
+}
+.Experiences{
+    text-decoration: underline;
+    background-color: #FEFDCA;
+}
+.Education{
+    text-decoration: underline;
+    background-color: burlywood;
+}
+.Internship{
+    text-decoration: underline;
+    background-color: burlywood;
+}
+/* div */
+.table-menu td:hover{
+    background-color: #1EAE98;
+}
+.table-content{
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: #FEFDCA;
+}
+.ul-disc{
+    list-style-type:disc;
+    background-color: #FFCFDF;
+}
+.ul-circle{
+    list-style-type:circle; 
+    text-align: center;
+    background-color: #FFCFDF;
+}
+.h-head{
+    background-color: #FEFDCA;
+}
+th{
+    width: 33.33%; vertical-align: center;
+}
